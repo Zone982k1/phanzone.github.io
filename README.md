@@ -10,7 +10,18 @@
      boxicons min. css rel=' 'stylesheet's
  </head>
  <body>
-     <header class"header></header>
-     <script
+     <header class"header>
+         <a href="#home" class="logo">Jonah
+         <span>Wells</span></a>
+         <i class='bx bx-menu' id="menu-icon"></i>
+         <nav class="navbar">
+          <a href="#home" class="active"> Home</a>
+          <a href="#about">About</a>
+          <a href=" "#services">Services</a>
+          <a href=" "#contact">Contact</a>
+         </nav>
+     </header>
+     
+     
  </body>
  </html>
