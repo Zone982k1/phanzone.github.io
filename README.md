@@ -1,116 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1, h2, h3 {
-            margin-top: 0;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-        .experience {
-            margin-bottom: 20px;
-        }
-        .experience h3 {
-            margin-bottom: 5px;
-        }
-        .experience p {
-            margin: 5px 0;
-        }
-        .education {
-            margin-bottom: 20px;
-        }
-        .education h3 {
-            margin-bottom: 5px;
-        }
-        .education p {
-            margin: 5px 0;
-        }
-        .skills {
-            margin-bottom: 20px;
-        }
-        .skills ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .skills li {
-            margin-bottom: 5px;
-        }
-        .contact {
-            text-align: center;
-        }
-        .contact p {
-            margin: 5px 0;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>John Doe</h1>
-            <p>Web Developer</p>
-        </div>
-        
-        <div class="section">
-            <h2>Experience</h2>
-            <div class="experience">
-                <h3>Web Developer - ABC Company</h3>
-                <p>Responsible for building and maintaining websites.</p>
+# phanzone.github.io
+<section id="hero">
+            <div class="container">
+                <div class="site-header">
+                    <div class="header-logo">
+                        <a href="#" class="site-name">Your Name Here</a>
+                    </div>
+                    <span class="flex-spacer"></span> <!-- IE WORKAROUND -->
+                    <nav class="site-nav">
+                        <ul>
+                            <!--<li><a href="#">Home</a></li>-->
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a class="contact-me btn-primary" href="mailto:abecilla.paularmand@gmail.com">Contact Me</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Mobile hidden nav -->
+                    <nav class="mobile-nav overlay">
+                        <div class="nav-burger toggle" id="toggle">
+                            <span class="bar top"></span>
+                            <span class="bar middle"></span>
+                            <span class="bar bottom"></span>
+                        </div>
+                        <ul class="nav-overlay" id="overlay">
+                            <!--<li><a href="#">Home</a></li>-->
+                            <li><a href="#about" class="toggle">About</a></li>
+                            <li><a href="#portfolio" class="toggle">Portfolio</a></li>
+                            <li><a href="mailto:your-email" class="toggle">Contact Me</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="hero-content">
+                    <h1 class="cta">Hi. I’m "Your Name"</h1>
+                    <p>Web Designer / Developer</p>
+                    <a href="#portfolio" class="button-cta">View My Portfolio</a>
+                </div>
             </div>
-            <!-- Add more experience here -->
-        </div>
-        
-        <div class="section">
-            <h2>Education</h2>
-            <div class="education">
-                <h3>Bachelor of Science in Computer Science - XYZ University</h3>
-                <p>Graduated in 2020.</p>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="about-pic">
+                    <img src="img/my-picture.jpg" class="about-img" alt="Beach Picture 2018">
+                </div>
+                <div class="about-content">
+                    <h2>About</h2>
+                    <p class="mg-bot-20">Describe your Self Here </p>
+                </div>
             </div>
-            <!-- Add more education here -->
-        </div>
-        
-        <div class="section">
-            <h2>Skills</h2>
-            <div class="skills">
-                <ul>
-                    <li>HTML/CSS</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Node.js</li>
-                    <!-- Add more skills here -->
-                </ul>
+        </section>
+        <section id="skills">
+            <div class="container">
+                <div class="skills-content">
+                    <h2>Skills</h2>
+                    <p class="mg-bot-20">Describe Your Skills info</p>
+                    <div class="skills-icons">
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3"></i>
+                        <i class="fab fa-wordpress"></i>
+                        <i class="fab fa-js"></i>
+                        <i class="fab fa-adobe"></i>
+                        <i class="fab fa-php"></i>
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <!--<a href="#" class="btn-primary">View my Work</a>-->
+                </div>
+                <div class="skills-rating">
+                    <p>HTML5 & CSS3</p>
+                    <div class="outer-meter">
+                        <div class="inner-meter html5"></div>
+                    </div>
+                    <p>Photoshop</p>
+                    <div class="outer-meter">
+                        <div class="inner-meter photoshop"></div>
+                    </div>
+                    <p>Javascript & jQuery</p>
+                    <div class="outer-meter">
+                        <div class="inner-meter js-jquery"></div>
+                    </div>
+                    <p>Wordpress</p>
+                    <div class="outer-meter">
+                        <div class="inner-meter wordpress"></div>
+                    </div>
+                    <p>PHP & MySQL</p>
+                    <div class="outer-meter">
+                        <div class="inner-meter php-mysql"></div>
+                    </div>
+                    <p>ReactJS and Redux (Learning in progress)</p>
+                    <div class="outer-meter">
+                        <div class="inner-meter react-redux"></div>
+                    </div>
+                </div>
             </div>
-        </div>
-        
-        <div class="section">
-            <h2>Contact</h2>
-            <div class="contact">
-                <p>Email: john@example.com</p>
-                <p>Phone: 123-456-7890</p>
-                <p>Address: 123 Main Street, City, Country</p>
+        </section>
+        <section id="portfolio">
+            <div class="container">
+                <h2>Recent <span>Projects</span></h2>
+                <div class="thumbnails-wrapper">
+                    <img src="img/thumbnail-1.jpg" alt="Garage Door Company sample" class="project-thumbnails" data-lity-target="img/project1.png">
+                    <img src="img/thumbnail-2.jpg" alt="Automotive template sample" class="project-thumbnails" data-lity-target="img/project2.png">
+                    <img src="img/thumbnail-3.jpg" alt="Construction sample template" class="project-thumbnails" data-lity-target="img/project3.png">
+                </div>
             </div>
-        </div>
-    </div>
-</body>
-</html>
+        </section>
+        <section id="footer">
+            <section id="quote">
+                <div class="container">
+                    <h3>“Have no fear of perfection—you’ll never reach it.”</h3>
+                    <p>–Salvador Dali</p>
+                </div>
+            </section>
+            <section id="copyright">
+                <div class="container">
+                    <p>©  Your Site Name</p>
+                    <span class="flex-spacer"></span> <!-- IE WORKAROUND -->
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-spotify"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-soundcloud"></i></a>
+                    </div>
+                </div>
+            </section>
+        </section>
