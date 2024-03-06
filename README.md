@@ -1,3 +1,10 @@
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/lity.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+
+
 <section id="hero">
             <div class="container">
                 <div class="site-header">
@@ -121,3 +128,9 @@
                 </div>
             </section>
         </section>
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script src="js/lity.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/main.js"></script>
